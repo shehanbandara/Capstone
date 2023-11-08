@@ -2,16 +2,19 @@
 title: Home
 layout: home
 ---
+# Project Overview
+xxx
 
 # Progress Logs
+## Actuators
+xxx
 ## Mechanical
 xxx
-## Electrical
+## Motors
+xxx
+## Sensors
 xxx
 ## Software
-xxx
-
-# Design Documents
 xxx
 
 # Miscellaneous
