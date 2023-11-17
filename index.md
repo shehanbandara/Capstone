@@ -1,23 +1,9 @@
 ---
-title: Home
 layout: home
+title: Project Overview
+nav_order: 1
 ---
 # Project Overview
-xxx
-
-# Progress Logs
-## Actuators
-xxx
-## Mechanical
-xxx
-## Motors
-xxx
-## Sensors
-xxx
-## Software
-xxx
-
-# Miscellaneous
 xxx
 
 ----
