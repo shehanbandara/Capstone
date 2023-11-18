@@ -6,4 +6,18 @@ nav_order: 5
 ---
 
 # Software
-xxx
+## Block Diagrams
+### Obstacle Avoidance
+![](../../assets/images/obstacleAvoidance.png)
+### Obstacle Detection
+![](../../assets/images/obstacleDetection.png)
+### Phone
+![](../../assets/images/phone.png)
+### Speed
+![](../../assets/images/speed.png)
+### Start
+![](../../assets/images/start.png)
+### Stop
+![](../../assets/images/stop.png)
+### Turn Direction
+![](../../assets/images/turnDirection.png)
