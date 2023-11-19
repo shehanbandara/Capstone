@@ -5,7 +5,7 @@ nav_order: 1
 ---
 ## **The current methods of transportation for golf equipment on the golf course are not suitable for all players of the game​.**
 
-| ![](../../assets/images/carryingClubs.png) | ![](../../assets/images/motorizedGolfCart.png) | ![](../../assets/images/pushcart.png) | ![](../../assets/images/remoteControlCart.png) |
+| ![](./assets/images/carryingClubs.png) | ![](./assets/images/motorizedGolfCart.png) | ![](./assets/images/pushcart.png) | ![](./assets/images/remoteControlCart.png) |
 | Carrying Clubs | Motorized Golf Cart | Pushcart | Remote Control Cart |
 |:--------------------|:-------------------|:-------------------|:-------------------|
 | Weigh over 35lbs on average | Priced per visit | Difficult to push in mushy/elevated terrains | Extremely expensive |
@@ -13,7 +13,7 @@ nav_order: 1
 | Requires over 175lbs bodyweight to safely carry | Many golfers prefer to walk the golf course | Cannot be easily placed on elevated terrains | Complicated to use/learning curve |
 
 # Current Methods vs Desired Solution
-![](../../assets/images/currentVsDesired.png)
+![](./assets/images/currentVsDesired.png)
 
 ## **_Our goal is to provide a means to transport golf equipment across the golf course with minimum strain and interaction from the user at a fair price point._**
 
