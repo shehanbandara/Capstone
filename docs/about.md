@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Miscellaneous
+title: About
 nav_order: 3
 ---
 
-# Miscellaneous
+# About
 xxx

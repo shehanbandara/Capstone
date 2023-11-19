@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Software
-parent: Progress Logs
+parent: Project Logs
 nav_order: 5
 ---
 

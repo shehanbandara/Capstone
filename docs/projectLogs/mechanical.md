@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mechanical
-parent: Progress Logs
+parent: Project Logs
 nav_order: 2
 ---
 
