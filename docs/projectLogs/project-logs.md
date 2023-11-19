@@ -7,4 +7,4 @@ permalink: docs/utilities
 ---
 
 # Progress Logs
-See the sections below for all updates on our progress and all relevant information.
+See the sections below for all updates on our progress and any relevant information.
