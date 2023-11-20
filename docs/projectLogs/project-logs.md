@@ -3,7 +3,7 @@ layout: default
 title: Project Logs
 nav_order: 2
 has_children: true
-permalink: docs/utilities
+permalink: docs/projectLogs
 ---
 
 # Progress Logs

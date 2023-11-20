@@ -4,9 +4,18 @@ title: Software
 parent: Project Logs
 nav_order: 5
 ---
-
 # Software
-## Block Diagrams
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+
+# 11/13/2023
+## Software Block Diagrams
 ### Obstacle Avoidance
 ![](../../assets/images/obstacleAvoidance.png)
 ### Obstacle Detection
