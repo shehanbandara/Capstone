@@ -41,3 +41,7 @@ nav_order: 2
 | **Without Weight** | 36 | 34 | 33.5 | 37.5 |
 | **Without Ease of Implementation** | 35 | 36 | 35.5 | 35.5 |
 | **Total** | 210 | 210 | 207.5 | **212.5** |
+
+# 10/9/2023
+## Preliminary Design Sketch
+![](../../assets/images/preliminaryDesignSketch.png)

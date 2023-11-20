@@ -26,7 +26,3 @@ nav_order: 3
 | **Weight** | 4 | 3 | 8 | 3 |
 | **Cost** | 3 | 5 | 6 | 9 |
 | **Total** | 38 | 32 | **45** | 27 |
-
-# 10/9/2023
-## Preliminary Design Sketch
-![](../../assets/images/preliminaryDesignSketch.png)
