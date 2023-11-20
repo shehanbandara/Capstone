@@ -15,7 +15,7 @@ nav_order: 2
 ---
 
 # 10/2/2023
-## Chassis Design Matrix
+## Chassis Decision Matrix
 
 || ![](../../assets/images/4WF.png) | ![](../../assets/images/3WF.png) | ![](../../assets/images/3WS.png) | ![](../../assets/images/4WS.png) |
 | Description | 4 Wheel, Fixed Lead Wheelbase | 3 Wheel, Fixed Lead Wheelbase | 3 Wheel, Swivel Lead Wheelbase | 4 Wheel, Swivel Lead Wheelbase |
@@ -26,9 +26,9 @@ nav_order: 2
 | **Size** | 7 | 9 | 9 | 8 |
 | **Weight** | 6 | 8 | 8 | 5 |
 | **Ease of Implementation** | 7 | 6 | 6 | 7 |
-| **Total** | 42 | 42 | 41.5 | 42.5 |
+| **Total** | 42 | 42 | 41.5 | **42.5** |
 
-## Chassis Design Matrix - Bias Evaluation
+## Chassis Decision Matrix - Bias Evaluation
 
 || ![](../../assets/images/4WF.png) | ![](../../assets/images/3WF.png) | ![](../../assets/images/3WS.png) | ![](../../assets/images/4WS.png) |
 | Description | 4 Wheel, Fixed Lead Wheelbase | 3 Wheel, Fixed Lead Wheelbase | 3 Wheel, Swivel Lead Wheelbase | 4 Wheel, Swivel Lead Wheelbase |
