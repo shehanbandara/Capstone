@@ -58,4 +58,4 @@ nav_order: 2
 ![](../../assets/images/CADTop.png)
 
 ### Motor Bracket Breakdown
-![](../../assets/images/CADMotorBracket.png)
+![](../../assets/images/CADMotBracket.png)
