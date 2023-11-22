@@ -2,7 +2,7 @@
 layout: default
 title: Software
 parent: Project Logs
-nav_order: 5
+nav_order: 4
 ---
 # Software
 {: .no_toc }

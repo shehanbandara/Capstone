@@ -47,7 +47,7 @@ nav_order: 2
 ![](../../assets/images/preliminaryDesignSketch.png)
 
 # 11/20/2023
-## CAD Progression
+## CAD Progress
 ### Isometric View
 ![](../../assets/images/CADIsometric.png)
 
