@@ -45,3 +45,17 @@ nav_order: 2
 # 10/9/2023
 ## Preliminary Design Sketch
 ![](../../assets/images/preliminaryDesignSketch.png)
+
+# 10/20/2023
+## CAD Progression
+### Isometric View
+![](../../assets/images/CADIsometric.png)
+
+### Side View
+![](../../assets/images/CADSide.png)
+
+### Top View
+![](../../assets/images/CADTop.png)
+
+### Motor Bracket Breakdown
+![](../../assets/images/CADMotorBracket.png)
