@@ -47,3 +47,9 @@ Key specifications include:
 Work has begun on the hoverboard's motors to manually control them with a potentiometer.
 
 ![](../../assets/images/hoverboardWorkStarts.png)
+
+# 11/17/2023
+## Motor Work Progress
+Able to successfully manually control the hoverboard's motors with a potentiometer.
+
+https://github.com/shehanbandara/Capstone/assets/64564445/626f78ed-13c4-4733-a858-984ffc8cc3f8
