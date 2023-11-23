@@ -50,6 +50,6 @@ Work has begun on the hoverboard's motors to manually control them with a potent
 
 # 11/17/2023
 ## Motor Work Progress
-Able to successfully manually control the hoverboard's motors with a potentiometer.
+Able to successfully control the hoverboard's motors manually with a potentiometer.
 
 ![](../../assets/images/hoverboardWorkMotorControl.gif)
