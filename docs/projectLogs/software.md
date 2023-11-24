@@ -19,7 +19,7 @@ nav_order: 4
 **In general:**
 * The server and client network will be connected via Wi-Fi to support extended range​
 * The user's phone transmits actions and coordinates​ to the caddy
-* The caddy follows the user's request actions and coordinates in real-time
+* The caddy follows the user's requested actions and coordinates in real-time
 
 **Phone:**
 * Sends the requested action to the caddy (START/STOP)
