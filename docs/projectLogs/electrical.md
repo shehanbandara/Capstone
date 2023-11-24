@@ -53,3 +53,9 @@ Work has begun on the hoverboard's motors to manually control them with a potent
 Able to successfully control the hoverboard's motors manually with a potentiometer.
 
 ![](../../assets/images/hoverboardWorkMotorControl.gif)
+
+# 11/23/2023
+## Motor Work Progress
+Able to successfully control the hoverboard's motors with a Raspberry Pi. The wheels can rotate in both directions and the brake can be successfully applied.
+
+![](../../assets/images/hoverboardMotorRPI.gif)
