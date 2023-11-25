@@ -112,6 +112,8 @@ angle = sensor.get_bearing()
 print('Heading Angle = {}°'.format(angle))
 {% endraw %}```
 
+* [Corresponding Sensors Work]({% link docs/projectLogs/sensors.md %}#acquired-gps--compass)
+
 # 11/20/2023
 ## Phone & Caddy (Raspberry Pi) Progress
 * Able to send coordinates between the phone and Raspberry Pi on a socket
