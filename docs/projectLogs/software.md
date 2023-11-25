@@ -68,7 +68,7 @@ nav_order: 4
 
 # 11/16/2023
 ## Phone Progress
-* Able to get the phone's GPS coordinates and display them to the user.
+* Able to get the phone's GPS coordinates and display them to the user
 
 ![](../../assets/images/phoneCoordinates.gif)
 
@@ -93,8 +93,8 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 {% endraw %}```
 
 # 11/18/2023
-## Caddy (Raspberry Pi) Progress:
-* Able to get the Raspberry Pi's GPS coordinates with the BN-880 GPS.
+## Caddy (Raspberry Pi) Progress
+* Able to get the Raspberry Pi's GPS coordinates with the BN-880 GPS
 
 **Code Snippet:**
 ```python{% raw %}
@@ -103,7 +103,7 @@ if str.find('GGA') > 0:
     print("Timestamp: %s -- Lat: %s %s -- Lon: %s %s -- Altitude: %s %s -- Satellites: %s" % (msg.timestamp,msg.latitude,msg.lat_dir,msg.longitude,msg.lon_dir,msg.altitude,msg.altitude_units,msg.num_sats))
 {% endraw %}```
 
-* Able to get the Raspberry Pi's cardinal direction with the GY-271 Compass.
+* Able to get the Raspberry Pi's cardinal direction with the GY-271 Compass
 
 **Code Snippet:**
 ```python{% raw %}
@@ -113,8 +113,8 @@ print('Heading Angle = {}°'.format(angle))
 {% endraw %}```
 
 # 11/20/2023
-## Phone & Caddy (Raspberry Pi) Progress:
-* Able to send coordinates between the phone and Raspberry Pi on a socket.
+## Phone & Caddy (Raspberry Pi) Progress
+* Able to send coordinates between the phone and Raspberry Pi on a socket
 
 ![](../../assets/images/phoneRPISocketCoordinates.gif)
 
@@ -157,9 +157,9 @@ else:
 {% endraw %}```
 
 # 11/23/2023
-## Caddy (Raspberry Pi) Motor Control:
-* Able to successfully control the hoverboard's motors with a Raspberry Pi. The wheels can rotate in both directions and the brake can be successfully applied.
-* [Corresponding Electrical Work]({% link docs/projectLogs/electrical.md %}#motor-work-progress-2).
+## Caddy (Raspberry Pi) Motor Control
+* Able to successfully control the hoverboard's motors with a Raspberry Pi. The wheels can rotate in both directions and the brake can be successfully applied
+* [Corresponding Electrical Work]({% link docs/projectLogs/electrical.md %}#motor-work-progress-2)
 
 **Code Snippet:**
 ```python{% raw %}
