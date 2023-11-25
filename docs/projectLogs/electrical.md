@@ -34,8 +34,10 @@ nav_order: 1
 * Electrically allows for e-brake, direction change, and coast to stop functionality
 
 ## Hoverboard Purchased
-A [Hoverboard](https://www.amazon.ca/dp/B09NDKKBH8?language=en-CA&ref_=cm_sw_r_apin_dp_FCHVW3Y5VHK1D3ENJAW9&th=1) was purchased for parts.
+* A [Hoverboard](https://www.amazon.ca/dp/B09NDKKBH8?language=en-CA&ref_=cm_sw_r_apin_dp_FCHVW3Y5VHK1D3ENJAW9&th=1) was purchased for parts.
+
 ![](../../assets/images/hoverboardNew.png)
+
 Key specifications include:
 * Dual 250W in hub motors
 * 8.5" solid rubber offroad wheels for all terrain
@@ -44,18 +46,18 @@ Key specifications include:
 
 # 11/13/2023
 ## Motor Work Progress
-Work has begun on the hoverboard's motors to manually control them with a potentiometer.
+* Work has begun on the hoverboard's motors to manually control them with a potentiometer.
 
 ![](../../assets/images/hoverboardWorkStarts.png)
 
 # 11/17/2023
 ## Motor Work Progress
-Able to successfully control the hoverboard's motors manually with a potentiometer.
+* Able to successfully control the hoverboard's motors manually with a potentiometer.
 
 ![](../../assets/images/hoverboardWorkMotorControl.gif)
 
 # 11/23/2023
 ## Motor Work Progress
-Able to successfully control the hoverboard's motors with a Raspberry Pi. The wheels can rotate in both directions and the brake can be successfully applied.
+* Able to successfully control the hoverboard's motors with a Raspberry Pi. The wheels can rotate in both directions and the brake can be successfully applied.
 
 ![](../../assets/images/hoverboardMotorRPI.gif)
