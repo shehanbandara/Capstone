@@ -62,3 +62,9 @@ Key specifications include:
 * [Corresponding Software Work]({% link docs/projectLogs/software.md %}#caddy-raspberry-pi-motor-control)
 
 ![](../../assets/images/hoverboardMotorRPI.gif)
+
+# 1/10/2024
+## Motor Work Progress
+* Able to successfully control the motors with a Raspberry Pi while connected to the caddy. The wheels can rotate in both directions and the brake can be successfully applied
+
+![](../../assets/images/wheelMotorControl.gif)
