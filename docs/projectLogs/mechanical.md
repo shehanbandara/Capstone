@@ -59,3 +59,9 @@ nav_order: 2
 
 ### Motor Bracket Breakdown
 ![](../../assets/images/CADMotBracket.png)
+
+# 1/10/2024
+## Wheel Bracket Progress
+* Connected both wheels to the caddy via the two 3D printed wheel brackets
+
+![](../../assets/images/wheelBracket.png)
