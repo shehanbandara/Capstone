@@ -3,6 +3,11 @@ layout: home
 title: Home
 nav_order: 1
 ---
+# **Introducing GolfTom - Your Ultimate Golf Companion**​ 
+## **GolfTom is a cutting-edge autonomous caddy that seamlessly accompanies you throughout the golf course, enhancing your game with unparalleled convenience and innovation.**
+## **Current status of GolfTom:**
+![](./assets/images/caddySideViewFeb.png)
+
 ## **The current methods of transportation for golf equipment on the golf course are not suitable for all players of the game​.**
 
 | ![](./assets/images/carryingClubs.png) | ![](./assets/images/motorizedGolfCart.png) | ![](./assets/images/pushcart.png) | ![](./assets/images/remoteControlCart.png) |
