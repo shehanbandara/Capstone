@@ -35,3 +35,13 @@ nav_order: 3
 * Able to get the Raspberry Pi’s GPS coordinates with the BN-880 GPS
 * Able to get the Raspberry Pi’s cardinal direction with the GY-271 Compass
 * [Corresponding Software Work]({% link docs/projectLogs/software.md %}#caddy-raspberry-pi-progress)
+
+# 1/10/2024
+## LiDAR
+* Able to get accurate distance measurements from the LiDAR sensor
+* [Corresponding Software Work]({% link docs/projectLogs/software.md %}#caddy-raspberry-pi-progress-1)
+
+# 2/7/2024
+## Caddy (Raspberry Pi) Progress
+* Able to get the GPS, Compass, and LiDAR working in unison on the caddy
+* [Corresponding Software Work]({% link docs/projectLogs/software.md %}#caddy-raspberry-pi-progress-2)

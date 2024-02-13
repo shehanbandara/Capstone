@@ -68,3 +68,15 @@ Key specifications include:
 * Able to successfully control the motors with a Raspberry Pi while connected to the caddy. The wheels can rotate in both directions and the brake can be successfully applied
 
 ![](../../assets/images/wheelMotorControl.gif)
+
+# 1/24/2024
+## Caddy Progress
+* Temporarily housing the Raspberry Pi, speed controllers, sensors, battery, and the cable harnesses in the caddy's storage section
+
+![](../../assets/images/tempElectricalHousing.png)
+
+# 1/31/2024
+## Caddy Progress
+* Able to control the caddy to move forwards and backwards in a straight line
+
+![](../../assets/images/caddyMovingForwardsBackwards.gif)

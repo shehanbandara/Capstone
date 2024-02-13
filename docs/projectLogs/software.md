@@ -192,3 +192,86 @@ def brake(tf):
     GPIO.output(31, True)
     time.sleep(tf)
 {% endraw %}```
+
+# 1/10/2024
+## Caddy (Raspberry Pi) Progress
+* Able to get accurate distance measurements from the LiDAR sensor
+* [Corresponding Sensors Work]({% link docs/projectLogs/sensors.md %}#lidar)
+
+**Code Snippet:**
+```python{% raw %}
+def read_tfluna_data():
+    while True:
+        counter = ser.in_waiting # count the number of bytes of the serial port
+        if counter > 8:
+            bytes_serial = ser.read(9) # read 9 bytes
+            ser.reset_input_buffer() # reset buffer
+
+            if bytes_serial[0] == 0x59 and bytes_serial[1] == 0x59: # check first two bytes
+                distance = bytes_serial[2] + bytes_serial[3]*256 # distance in next two bytes
+                strength = bytes_serial[4] + bytes_serial[5]*256 # signal strength in next two bytes
+                temperature = bytes_serial[6] + bytes_serial[7]*256 # temp in next two bytes
+                temperature = (temperature/8.0) - 256.0 # temp scaling and offset
+                return distance/100.0,strength,temperature
+
+distance, strength, temperature = read_tfluna_data()
+{% endraw %}```
+
+# 2/7/2024
+## Caddy (Raspberry Pi) Progress
+* Able to get the GPS, Compass, and LiDAR working in unison on the caddy
+* [Corresponding Sensors Work]({% link docs/projectLogs/sensors.md %}#caddy-raspberry-pi-progress-1)
+
+**Code Snippet:**
+```python{% raw %}
+while True:
+    message = connectionSocket.recv(1024).decode()
+    print(f"Raw content: {message}")
+    code, content = message.split(":", 1)
+
+    # Obstacle detection case, wait for phone to transmit "ACTION:START"
+    if GLOBAL_OBSTACLE_STOP is True:
+        if code == ACTION and content == "START":
+            GLOBAL_OBSTACLE_STOP = False
+        else:
+            # TURN OFF MOTORS
+            while code != ACTION and content != "START":
+                message = connectionSocket.recv(1024).decode()
+                code, content = message.split(":", 1)
+
+    if code == ACTION:
+        print(f"Incoming action: {content}")
+        connectionSocket.send("SETUP:SETUP".encode())
+    else:
+        if lat_avg == []:
+            pi_location_lat, pi_location_lon, last, lat_avg, lon_avg = get_rpi_coordinates()
+        else:
+            pi_location_lat, pi_location_lon, last, lat_avg, lon_avg = get_rpi_coordinates(last, lat_avg, lon_avg)
+
+        print(f"pi lat: {pi_location_lat}, pi lon: {pi_location_lon}")
+
+        phone_location_lat, phone_location_lon = parse_location(content)
+
+        distance_from_phone = distance(pi_location_lat, pi_location_lon, phone_location_lat, phone_location_lon)
+        distance_from_phone = "PI:" + str(round(distance_from_phone, 2))
+
+        # compute direction to turn towards
+        direction_to_turn, cardinal_direction = calculate_angle_offset(pi_location_lat, pi_location_lon, phone_location_lat, phone_location_lon)
+
+        # FOR NOW KEEPING THE BELOW CODE HERE BECAUSE WE HAVE THE SOCKET HERE AS WELL
+        obstacle_distance, strength = detection()
+        print(f"obstacle_distance: {obstacle_distance}, strength: {strength}")
+
+        # TODO!
+        get_compass_bearing(direction_to_turn)
+
+        # pre-screening, may need to adjust strength threshold
+        if obstacle_distance >= 0.2 and obstacle_distance <= 5 and strength >= 900 and False:
+            connectionSocket.send("ACTION:STOP".encode())
+            GLOBAL_OBSTACLE_STOP = True
+        
+        # probably should be else. Ideally, we receive one message, then send one message.
+        else:
+            print(f"LAST PRINT: Pi's distance from phone: {distance_from_phone}")
+            connectionSocket.send(distance_from_phone.encode())
+{% endraw %}```
