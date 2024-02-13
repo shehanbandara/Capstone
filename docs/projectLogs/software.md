@@ -217,6 +217,12 @@ def read_tfluna_data():
 distance, strength, temperature = read_tfluna_data()
 {% endraw %}```
 
+# 2/1/2024
+## Phone Progress
+* Updated the phone app UI
+
+![](../../assets/images/phoneAppUI.png)
+
 # 2/7/2024
 ## Caddy (Raspberry Pi) Progress
 * Able to get the GPS, Compass, and LiDAR working in unison on the caddy
