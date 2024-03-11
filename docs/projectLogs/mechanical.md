@@ -74,3 +74,33 @@ nav_order: 2
 * Connected both wheels to the caddy via the two 3D printed wheel brackets
 
 ![](../../assets/images/wheelBracket.png)
+
+# 2/14/2024
+## Battery & Raspberry Pi Housing Progress
+* Completed the CAD for a new housing for the battery and Raspberry Pi which will be 3D printed
+* This new housing will require the speed controllers to be moved to their respective wheel/motor
+
+![](../../assets/images/batteryRPIHousingCad.png)
+
+# 2/28/2024
+## Battery & Raspberry Pi Housing Progress
+* 3D printed the new housing for the battery and Raspberry Pi
+
+![](../../assets/images/batteryRPIHousing1.png)
+![](../../assets/images/batteryRPIHousing2.png)
+
+# 3/4/2024
+## Wheel Bracket & Speed Controller Housing Progress
+* Completed the CAD for the two new wheel brackets which will be 3D printed
+
+![](../../assets/images/wheelBracketCadNew1.png)
+
+# 3/8/2024
+## Wheel Bracket & Speed Controller Housing Progress
+* Completed the CAD for the two speed controller housings which will be 3D printed
+
+![](../../assets/images/wheelBracketCadNew2.png)
+
+* These speed controller housings will be attached to the new wheel brackets
+
+![](../../assets/images/wheelBracketCadNew3.png)

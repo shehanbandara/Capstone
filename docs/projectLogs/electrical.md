@@ -80,3 +80,9 @@ Key specifications include:
 * Able to control the caddy to move forwards and backwards in a straight line
 
 ![](../../assets/images/caddyMovingForwardsBackwards.gif)
+
+# 2/14/2024
+## Battery, Speed Controllers, & Raspberry Pi Housing Progress
+* Mounted the battery, speed controllers, and Raspberry Pi on the 3D printed housing
+
+![](../../assets/images/batterySpeedControllersRPIHousing.png)
