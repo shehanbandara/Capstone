@@ -29,7 +29,7 @@ nav_order: 1
 
 | Criteria | Status | Proof |
 |:--------------------|:-------------------|:-------------------|
-| Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery1.png) |
+| Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery.png) |
 | Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | Test not yet conducted |
 | Accommodate standard golf bags with clubs  | Pass | xxx |
 | Travel at a human's walking pace (5 KM/H) | Pass | ![](./assets/images/travelAtHumansWalkingPace.gif) |
