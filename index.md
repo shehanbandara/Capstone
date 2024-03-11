@@ -33,9 +33,9 @@ nav_order: 1
 | Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | Test not yet conducted |
 | Accommodate standard golf bags with clubs  | Pass | xxx |
 | Travel at a human's walking pace (5 KM/H) | Pass | ![](./assets/images/travelAtHumansWalkingPace.gif) |
-| Obstacle detection radius of 3 metres | Pass | ![](./assets/images/obstacleDetectionRadius.png) |
+| Obstacle detection radius of 3 metres | Pass | The LiDAR sensor accurately identifies obstacles within and beyond a 3 metre radius ![](./assets/images/obstacleDetectionRadius.png) |
 | Failure detection and alerts | Pass | ![](./assets/images/failureDetectionAndAlerts.gif) |
-| Pairing device is convenient for user to carry and easily transportable | Pass | The pairing device is the user's mobile phone, which is convenient to carry and easily transportable |
+| Pairing device is convenient for user to carry and easily transportable | Pass | The pairing device is the user's mobile phone, which is convenient to carry and easily transportable ![](./assets/images/pairingDevice.png) |
 
 ## **Constraints**
 
@@ -43,8 +43,8 @@ nav_order: 1
 |:--------------------|:-------------------|:-------------------|
 | Can traverse up/down terrains with max slope of 20 degrees | Pending | Test not yet conducted |
 | Weight of the entire solution does not exceed 15 KG without clubs | Pending | Test not yet conducted |
-| System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | xxx |
-| Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | The pairing device is the user’s mobile phone, which is less than 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) |
+| System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | The system dimensions are exactly 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) ![](./assets/images/systemDimensionsL.png) ![](./assets/images/systemDimensionsH.png) ![](./assets/images/systemDimensionsW.png) |
+| Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | The pairing device is the user’s mobile phone, which is less than 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) ![](./assets/images/phoneDimensions.png) |
 | Total cost does not exceed $2000 CAD | Pass | The total cost of the project is $925 CAD |
 
 ## **Specifications**
