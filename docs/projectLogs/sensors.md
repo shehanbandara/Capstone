@@ -45,3 +45,10 @@ nav_order: 3
 ## Caddy (Raspberry Pi) Progress
 * Able to get the GPS, Compass, and LiDAR working in unison on the caddy
 * [Corresponding Software Work]({% link docs/projectLogs/software.md %}#caddy-raspberry-pi-progress-2)
+
+# 2/14/2024
+## Caddy (Raspberry Pi) Progress
+* Mounted the LiDAR, GPS, & compass on the caddy
+
+![](../../assets/images/sensorsMounted1.png)
+![](../../assets/images/sensorsMounted2.png)
