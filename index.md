@@ -27,36 +27,36 @@ nav_order: 1
 
 ## **Criteria**
 
-| Criteria | Status | Notes | Proof |
-|:--------------------|:-------------------|:-------------------|:-------------------|
-| Rechargeable and detachable battery | Pass | xxx | xxx |
-| Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | xxx | xxx |
-| Accommodate standard golf bags with clubs  | Pass | xxx | xxx |
-| Travel at a human's walking pace (5 KM/H) | Pass | xxx | xxx |
-| Obstacle detection radius of 3 metres | Pass | xxx | xxx |
-| Failure detection and alerts | Pass | xxx | xxx |
-| Pairing device is convenient for user to carry and easily transportable | Pass | xxx | xxx |
+| Criteria | Status | Proof |
+|:--------------------|:-------------------|:-------------------|
+| Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery1.png) |
+| Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | Test not yet conducted |
+| Accommodate standard golf bags with clubs  | Pass | xxx |
+| Travel at a human's walking pace (5 KM/H) | Pass | ![](./assets/images/travelAtHumansWalkingPace.gif) |
+| Obstacle detection radius of 3 metres | Pass | ![](./assets/images/obstacleDetectionRadius.png) |
+| Failure detection and alerts | Pass | ![](./assets/images/failureDetectionAndAlerts.gif) |
+| Pairing device is convenient for user to carry and easily transportable | Pass | The pairing device is the user's mobile phone, which is convenient to carry and easily transportable |
 
 ## **Constraints**
 
-| Constraints | Status | Notes | Proof |
-|:--------------------|:-------------------|:-------------------|:-------------------|
-| Can traverse up/down terrains with max slope of 20 degrees | Pending | xxx | xxx |
-| Weight of the entire solution does not exceed 15 KG without clubs | Pending | xxx | xxx |
-| System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | xxx | xxx |
-| Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | xxx | xxx |
-| Total cost does not exceed $2000 CAD | Pass | xxx | xxx |
+| Constraints | Status | Proof |
+|:--------------------|:-------------------|:-------------------|
+| Can traverse up/down terrains with max slope of 20 degrees | Pending | Test not yet conducted |
+| Weight of the entire solution does not exceed 15 KG without clubs | Pending | Test not yet conducted |
+| System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | xxx |
+| Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | The pairing device is the user’s mobile phone, which is less than 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) |
+| Total cost does not exceed $2000 CAD | Pass | The total cost of the project is $925 CAD |
 
 ## **Specifications**
 
-| Specifications | Status | Notes | Proof |
-|:--------------------|:-------------------|:-------------------|:-------------------|
-| 50 LB payload capacity | xxx | xxx | xxx |
-| 2 DC motors combining to 15+ Nm | xxx | xxx | xxx |
-| 123+ RPM | xxx | xxx | xxx |
-| Power output of 200+ W | xxx | xxx | xxx |
-| 42000 mAh battery | xxx | xxx | xxx |
-| IPx5 Rating | xxx | xxx | xxx |
-| Wi-Fi network connection for pairing device and system | xxx | xxx | xxx |
+| Specifications | Status | Proof |
+|:--------------------|:-------------------|:-------------------|
+| 50 LB payload capacity | xxx | xxx |
+| 2 DC motors combining to 15+ Nm | xxx | xxx |
+| 123+ RPM | xxx | xxx |
+| Power output of 200+ W | xxx | xxx |
+| 42000 mAh battery | xxx | xxx |
+| IPx5 Rating | xxx | xxx |
+| Wi-Fi network connection for pairing device and system | xxx | xxx |
 
 ----
