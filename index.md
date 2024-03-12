@@ -22,8 +22,8 @@ nav_order: 1
 
 ## **_Our goal is to provide a means to transport golf equipment across the golf course with minimum strain and interaction from the user at a fair price point._**
 
-# Criteria, Constraints, & Specifications
-### We outlined criteria, constraints, and specifications which our solution would adhere to in MTE481's final report. These requirements along with how our solution meets them are outlined in the tables below.
+# Criteria & Constraints
+### We outlined criteria and constraints which our solution would adhere to in MTE481's final report. These requirements along with how our solution meets them are outlined in the tables below.
 
 ## **Criteria**
 
@@ -31,7 +31,7 @@ nav_order: 1
 |:--------------------|:-------------------|:-------------------|
 | Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery.png) |
 | Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | Test not yet conducted |
-| Accommodate standard golf bags with clubs  | Pass | xxx |
+| Accommodate standard golf bags with clubs  | Pass | The caddy is able to accommodate a standard golf bag with clubs |
 | Travel at a human's walking pace (5 KM/H) | Pass | ![](./assets/images/travelAtHumansWalkingPace.gif) |
 | Obstacle detection radius of 3 metres | Pass | The LiDAR sensor accurately identifies obstacles within and beyond a 3 metre radius ![](./assets/images/obstacleDetectionRadius.png) |
 | Failure detection and alerts | Pass | ![](./assets/images/failureDetectionAndAlerts.gif) |
@@ -46,17 +46,5 @@ nav_order: 1
 | System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | The system dimensions are exactly 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) ![](./assets/images/systemDimensionsL.png) ![](./assets/images/systemDimensionsH.png) ![](./assets/images/systemDimensionsW.png) |
 | Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | The pairing device is the user’s mobile phone, which is less than 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) ![](./assets/images/phoneDimensions.png) |
 | Total cost does not exceed $2000 CAD | Pass | The total cost of the project is $925 CAD |
-
-## **Specifications**
-
-| Specifications | Status | Proof |
-|:--------------------|:-------------------|:-------------------|
-| 50 LB payload capacity | xxx | xxx |
-| 2 DC motors combining to 15+ Nm | xxx | xxx |
-| 123+ RPM | xxx | xxx |
-| Power output of 200+ W | xxx | xxx |
-| 42000 mAh battery | xxx | xxx |
-| IPx5 Rating | xxx | xxx |
-| Wi-Fi network connection for pairing device and system | xxx | xxx |
 
 ----
