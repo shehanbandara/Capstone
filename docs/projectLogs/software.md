@@ -281,3 +281,8 @@ while True:
             print(f"LAST PRINT: Pi's distance from phone: {distance_from_phone}")
             connectionSocket.send(distance_from_phone.encode())
 {% endraw %}```
+
+# 3/9/2024
+## Software Code Complete
+* Software code for both the Raspberry Pi and mobile phone is complete on GitHub https://github.com/alexgonczaruk/cappy.
+* The software may slightly change before the symposium based on the results of further testing.
