@@ -5,8 +5,12 @@ nav_order: 1
 ---
 # **Introducing GolfTom - Your Ultimate Golf Companion**​ 
 ## **GolfTom is a cutting-edge autonomous caddy that seamlessly accompanies you throughout the golf course, enhancing your game with unparalleled convenience and innovation.**
-## **Current status of GolfTom:**
-![](./assets/images/demo1.gif)
+![](./assets/images/poster.png)
+![](./assets/images/finishedView1.png)
+![](./assets/images/finishedView2.png)
+![](./assets/images/finishedView3.png)
+![](./assets/images/finishedView4.png)
+![](./assets/images/finishedView5.png)
 
 ## **The current methods of transportation for golf equipment on the golf course are not suitable for all players of the game​.**
 
@@ -29,9 +33,9 @@ nav_order: 1
 
 | Criteria | Status | Proof |
 |:--------------------|:-------------------|:-------------------|
-| Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery.png) |
-| Sufficient battery range for 18 holes of golf (4.5 hours) | Pending | Test not yet conducted |
-| Accommodate standard golf bags with clubs  | Pass | The caddy is able to accommodate a standard golf bag with clubs |
+| Rechargeable and detachable battery | Pass | ![](./assets/images/rechargeableDetachableBattery2.png) |
+| Sufficient battery range for 18 holes of golf (4.5 hours) | Pass | Battery range is sufficient for 18 holes of golf (4.5+ hours) |
+| Accommodate standard golf bags with clubs  | Pass | ![](./assets/images/finishedView1.png) |
 | Travel at a human's walking pace (5 KM/H) | Pass | ![](./assets/images/travelAtHumansWalkingPace.gif) |
 | Obstacle detection radius of 3 metres | Pass | The LiDAR sensor accurately identifies obstacles within and beyond a 3 metre radius ![](./assets/images/obstacleDetectionRadius.png) |
 | Failure detection and alerts | Pass | ![](./assets/images/failureDetectionAndAlerts.gif) |
@@ -41,8 +45,8 @@ nav_order: 1
 
 | Constraints | Status | Proof |
 |:--------------------|:-------------------|:-------------------|
-| Can traverse up/down terrains with max slope of 20 degrees | Pending | Test not yet conducted |
-| Weight of the entire solution does not exceed 15 KG without clubs | Pending | Test not yet conducted |
+| Can traverse up/down terrains with max slope of 20 degrees | Pass | ![](./assets/images/outsideUphill.gif) |
+| Weight of the entire solution does not exceed 15 KG without clubs | Pass | The weight of the entire solution is 14 KG without clubs |
 | System dimensions do not exceed 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) | Pass | The system dimensions are exactly 47 inches x 42 inches x 27 inches (1.19 metres x 1.1 metres x 0.69 metres) ![](./assets/images/systemDimensionsL.png) ![](./assets/images/systemDimensionsH.png) ![](./assets/images/systemDimensionsW.png) |
 | Pairing device dimensions do not exceed 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) | Pass | The pairing device is the user’s mobile phone, which is less than 7 inches x 5 inches x 1 inch (0.18 metres x 0.13 metres x 0.025 metres) ![](./assets/images/phoneDimensions.png) |
 | Total cost does not exceed $2000 CAD | Pass | The total cost of the project is $925 CAD |
