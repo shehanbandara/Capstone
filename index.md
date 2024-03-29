@@ -6,6 +6,7 @@ nav_order: 1
 # **Introducing GolfTom - Your Ultimate Golf Companion**​ 
 ## **GolfTom is a cutting-edge autonomous caddy that seamlessly accompanies you throughout the golf course, enhancing your game with unparalleled convenience and innovation.**
 ![](./assets/images/poster.png)
+![](./assets/images/outsideUTurn.gif)
 ![](./assets/images/finishedView1.png)
 ![](./assets/images/finishedView2.png)
 ![](./assets/images/finishedView3.png)
